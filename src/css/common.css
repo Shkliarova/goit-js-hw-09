@@ -16,3 +16,23 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.field{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gainsboro;
+  border: 1px solid black;
+  padding: 15px;
+  width: 96px;
+}
+
+.timer{
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.value{
+  font-size: xx-large;
+}
